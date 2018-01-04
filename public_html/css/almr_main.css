@@ -460,7 +460,7 @@ body#index{
 body#index section.container{
     background-image: url("../media/img/SKI-BG-HP.png");
     background-color: #7599c9;
-    background-size: contain;
+    background-size: 100% auto;
     background-position: center top;
     background-repeat: no-repeat;
 }
