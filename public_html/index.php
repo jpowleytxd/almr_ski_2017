@@ -12,11 +12,13 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
 <meta charset="UTF-8">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#e6edf5">
 
 <title>ALMR Ski</title>
 
 <link rel="stylesheet" type="text/css" href="css/almr_main.css">
-<!-- <link rel="manifest" href="data/manifest.json"> -->
+<link rel="manifest" href="data/manifest.json">
 </head>
 
 <body id="index">
