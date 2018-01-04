@@ -55,6 +55,12 @@ body{
     padding-right: 20px;
 }
 
+#content_container{
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
 .faded_background{
     background-image: url("../media/img/PALE BG.png");
     background-color: #e6edf5;
