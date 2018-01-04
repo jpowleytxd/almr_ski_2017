@@ -1,0 +1,643 @@
+/* -------------------------------------------------------- */
+/* -------------------------------------------------------- */
+/* ---------------------ALMR 2018 SKI---------------------- */
+/* --------------------Main Stylesheet--------------------- */
+/* -------------------------------------------------------- */
+/* -------------------------------------------------------- */
+
+/* -------------------------------------------------------- */
+/* ----------------------Font Import----------------------- */
+/* -------------------------------------------------------- */
+@font-face{
+    font-family: "Bebas Neue";
+    src: url('../media/fonts/TTF/BebasNeue Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+/* -------------------------------------------------------- */
+/* ---------------------Minimal Reset---------------------- */
+/* -------------------------------------------------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 414px;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* -------------------------------------------------------- */
+/* -------------------Component Styling-------------------- */
+/* -------------------------------------------------------- */
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+    padding-top: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.faded_background{
+    background-image: url("../media/img/PALE BG.png");
+    background-color: #ffffff;
+    background-size: 100% auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.main_title{
+    width: 100%;
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+    color: #465463;
+    font-family: "Bebas Neue", Arial, sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+    line-height: 90%;
+}
+
+.standard_text{
+    width: 100%;
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+    color: #465463;
+    font-size: 0.9rem;
+    font-weight: normal;
+    text-align: left;
+}
+
+.tight_text{
+    margin-bottom: 5px;
+}
+
+.button{
+    width: 100%;
+    min-height: 50px;
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    /* font-weight: normal; */
+    font-size: 0.9rem;
+    text-decoration: none;
+    background: #465463;
+    border-radius: 25px;
+}
+
+.button.disabled{
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.button span{
+    width: calc(100% - 50px);
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+/* iPhone 5 (320px) To iPhone 6/7/8/X (375px) */
+@media screen and (max-width: 374px){
+
+}
+
+/* iPhone 6/7/8/X (375px) To iPhone 6/7/8 Plus (414px) */
+@media screen and (min-width: 375px) and (max-width: 413px){
+    .container{
+        margin-bottom: 30px;
+        padding-top: 200px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .main_title{
+        margin-bottom: 30px;
+        font-size: 2.8rem;
+    }
+
+    .standard_text{
+        font-size: 1rem;
+    }
+
+    .button{
+        margin-bottom: 30px;
+        font-size: 1rem;
+    }
+}
+
+/* iPhone 6/7/8 Plus (414px) + */
+@media screen and (min-width: 414px){
+    .container{
+        margin-bottom: 35px;
+        padding-top: 200px;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .main_title{
+        margin-bottom: 35px;
+        font-size: 3rem;
+    }
+
+    .standard_text{
+        font-size: 1.1rem;
+    }
+
+    .button{
+        margin-bottom: 35px;
+        font-size: 1.1rem;
+    }
+}
+
+/* -------------------------------------------------------- */
+/* ---------------------Header Styling--------------------- */
+/* -------------------------------------------------------- */
+header{
+    width: 100%;
+    z-index: 80;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 25px 20px;
+}
+
+#header_logo{
+    width: 100px;
+    display: block;
+    position: relative;
+    float: left;
+}
+
+#nav_icon{
+    width: 25px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+
+#nav_icon span{
+    display: block;
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    background: #7599c9;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    transform-origin: center;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+}
+
+#nav_icon.open span{
+    background: #0a3866;
+}
+
+#nav_icon span:nth-child(1){
+    top: 0%;
+    left: 50%;
+    -webkit-transform: rotate(0deg) translate(-50%, 0%);
+    -moz-transform: rotate(0deg) translate(-50%, 0%);
+    -o-transform: rotate(0deg) translate(-50%, 0%);
+    transform: rotate(0deg) translate(-50%, 0%);
+}
+
+#nav_icon span:nth-child(2){
+    top: 50%;
+    left: 50%;
+    -webkit-transform: rotate(0deg) translate(-50%, -50%);
+    -moz-transform: rotate(0deg) translate(-50%, -50%);
+    -o-transform: rotate(0deg) translate(-50%, -50%);
+    transform: rotate(0deg) translate(-50%, -50%);
+}
+
+#nav_icon span:nth-child(3){
+    top: 100%;
+    left: 50%;
+    -webkit-transform: rotate(0deg) translate(-50%, -100%);
+    -moz-transform: rotate(0deg) translate(-50%, -100%);
+    -o-transform: rotate(0deg) translate(-50%, -100%);
+    transform: rotate(0deg) translate(-50%, -100%);
+}
+
+#nav_icon.open span:nth-child(1){
+    top: 50%;
+    left: 0%;
+    -webkit-transform: rotate(135deg) translate(-0%, -0%);
+    -moz-transform: rotate(135deg) translate(-0%, -0%);
+    -o-transform: rotate(135deg) translate(-0%, -0%);
+    transform: rotate(135deg) translate(-0%, -0%);
+}
+
+#nav_icon.open span:nth-child(2){
+    opacity: 0;
+    left: -60px;
+}
+  
+#nav_icon.open span:nth-child(3){
+    top: 50%;
+    left: 0%;
+    -webkit-transform: rotate(-135deg) translate(-0%, -0%);
+    -moz-transform: rotate(-135deg) translate(-0%, -0%);
+    -o-transform: rotate(-135deg) translate(-0%, -0%);
+    transform: rotate(-135deg) translate(-0%, -0%);
+}
+
+/* iPhone 5 (320px) To iPhone 6/7/8/X (375px) */
+@media screen and (max-width: 374px){
+
+}
+
+/* iPhone 6/7/8/X (375px) To iPhone 6/7/8 Plus (414px) */
+@media screen and (min-width: 375px) and (max-width: 413px){
+    header{
+        padding: 30px;
+    }
+
+    #header_logo{
+        width: 125px;
+    }
+
+    #nav_icon{
+        width: 28px;
+        height: 23px;
+        right: 30px;
+        top: 30px;
+    }
+
+    #nav_icon span{
+        height: 5px;
+    }
+}
+
+/* iPhone 6/7/8 Plus (414px) + */
+@media screen and (min-width: 414px){
+    header{
+        padding: 35px;
+    }
+
+    #header_logo{
+        width: 125px;
+    }
+
+    #nav_icon{
+        width: 30px;
+        height: 26px;
+        right: 35px;
+        top: 35px;
+    }
+
+    #nav_icon span{
+        height: 6px;
+    }
+}
+
+/* -------------------------------------------------------- */
+/* -------------------Navigation Styling------------------- */
+/* -------------------------------------------------------- */
+.navigation_outer{
+    width: 100%;
+    height: 0vh;
+    z-index: 60;
+    display: block;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.navigation_inner{
+    width: 100%;
+    height: 100vh;
+    display: block;
+    position: relative;
+    padding-top: 150px;
+}
+
+nav{
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+.nav_item{
+    width: 100%;
+    height: 40px;
+    display: block;
+    position: relative;
+    color: #465463;
+    font-family: "Bebas Neue", Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 40px;
+}
+
+.navigation_footer{
+    width: 100%;
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding: 25px 20px;
+}
+
+.navigation_footer img{
+    height: 50px;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* iPhone 5 (320px) To iPhone 6/7/8/X (375px) */
+@media screen and (max-width: 374px){
+
+}
+
+/* iPhone 6/7/8/X (375px) To iPhone 6/7/8 Plus (414px) */
+@media screen and (min-width: 375px) and (max-width: 413px){
+    .navigation_inner{
+        padding-top: 200px;
+    }
+
+    .nav_item{
+        height: 45px;
+        line-height: 45px;
+    }
+}
+
+/* iPhone 6/7/8 Plus (414px) + */
+@media screen and (min-width: 414px){
+    .navigation_inner{
+        padding-top: 200px;
+    }
+
+    .nav_item{
+        height: 50px;
+        font-size: 2rem;
+        line-height: 50px;
+    }
+}
+
+/* -------------------------------------------------------- */
+/* ---------------------Footer Styling--------------------- */
+/* -------------------------------------------------------- */
+footer{
+    width: 100%;
+    display: block;
+    position: relative;
+    padding: 25px 20px;
+}
+
+footer img{
+    height: 50px;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* -------------------------------------------------------- */
+/* ---------------------Index Styling---------------------- */
+/* -------------------------------------------------------- */
+body#index{
+    background: #9bb8dc;
+}
+
+body#index section.container{
+    background-image: url("../media/img/SKI-BG-HP.png");
+    background-color: #7599c9;
+    background-size: contain;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.started_outer{
+    width: 100%;
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding: 50px 40px;
+}
+
+.started_outer a{
+    width: 100%;
+    height: 50px;
+    display: block;
+    position: relative;
+    color: #fff;
+    font-family: "Bebas Neue", Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 50px;
+}
+
+/* iPhone 5 (320px) To iPhone 6/7/8/X (375px) */
+@media screen and (max-width: 374px){
+
+}
+
+/* iPhone 6/7/8/X (375px) To iPhone 6/7/8 Plus (414px) */
+@media screen and (min-width: 375px) and (max-width: 413px){
+    .started_outer{
+        padding: 60px;
+    }
+
+    .started_outer a{
+        font-size: 2.2rem;
+    }
+}
+
+/* iPhone 6/7/8 Plus (414px) + */
+@media screen and (min-width: 414px){
+    .started_outer{
+        padding: 70px;
+    }
+
+    .started_outer a{
+        font-size: 2.5rem;
+    }
+}
+
+/* -------------------------------------------------------- */
+/* --------------------Welcome Styling--------------------- */
+/* -------------------------------------------------------- */
+.signoff_outer{
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+#signature{
+    width: 100px;
+    display: block;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.signoff{
+    width: 100%;
+    display: block;
+    position: relative;
+    margin-bottom: 5px;
+    color: #465463;
+    font-size: 0.8rem;
+    text-align: left;
+}
+
+/* iPhone 5 (320px) To iPhone 6/7/8/X (375px) */
+@media screen and (max-width: 374px){
+
+}
+
+/* iPhone 6/7/8/X (375px) To iPhone 6/7/8 Plus (414px) */
+@media screen and (min-width: 375px) and (max-width: 413px){
+    .signoff{
+        font-size: 0.9rem;
+    }
+}
+
+/* iPhone 6/7/8 Plus (414px) + */
+@media screen and (min-width: 414px){
+    .signoff{
+        font-size: 1rem;
+    }
+}
+
+/* -------------------------------------------------------- */
+/* --------------Resort Information Styling---------------- */
+/* -------------------------------------------------------- */
+.resort_logo{
+    height: 80px;
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+/* iPhone 5 (320px) To iPhone 6/7/8/X (375px) */
+@media screen and (max-width: 374px){
+
+}
+
+/* iPhone 6/7/8/X (375px) To iPhone 6/7/8 Plus (414px) */
+@media screen and (min-width: 375px) and (max-width: 413px){
+    .resort_logo{
+        height: 100px;
+        margin-bottom: 30px;
+    }
+}
+
+/* iPhone 6/7/8 Plus (414px) + */
+@media screen and (min-width: 414px){
+    .resort_logo{
+        height: 110px;
+        margin-bottom: 35px;
+    }
+}
+
+/* -------------------------------------------------------- */
+/* --------------------Ski Map Styling--------------------- */
+/* -------------------------------------------------------- */
+#ski_map{
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+/* -------------------------------------------------------- */
+/* -----------------Hotel Details Styling------------------ */
+/* -------------------------------------------------------- */
+.hotel_image{
+    width: 100%;
+    display: block;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+/* -------------------------------------------------------- */
+/* --------------------Ski Hire Styling-------------------- */
+/* -------------------------------------------------------- */
+.hire_sponsors_outer{
+    width: 100%;
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.hire_sponsor{
+    width: calc(45%);
+    display: block;
+    position: relative;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.hire_sponsor:nth-of-type(2n){
+    float: right;
+}
+
+/* iPhone 5 (320px) To iPhone 6/7/8/X (375px) */
+@media screen and (max-width: 374px){
+
+}
+
+/* iPhone 6/7/8/X (375px) To iPhone 6/7/8 Plus (414px) */
+@media screen and (min-width: 375px) and (max-width: 413px){
+    .hire_sponsor{
+        margin-bottom: 30px;
+    }
+}
+
+/* iPhone 6/7/8 Plus (414px) + */
+@media screen and (min-width: 414px){
+    .hire_sponsor{
+        margin-bottom: 35px;
+    }
+}
