@@ -57,7 +57,7 @@ body{
 
 .faded_background{
     background-image: url("../media/img/PALE BG.png");
-    background-color: #ffffff;
+    background-color: #e6edf5;
     background-size: 100% auto;
     background-position: center top;
     background-repeat: no-repeat;
@@ -337,12 +337,15 @@ header{
 /* -------------------------------------------------------- */
 .navigation_outer{
     width: 100%;
+    max-width: 414px;
     height: 0vh;
     z-index: 60;
     display: block;
     position: fixed;
     top: 0px;
-    left: 0px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
     overflow: hidden;
 }
 
