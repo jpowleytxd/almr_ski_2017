@@ -433,6 +433,7 @@ footer{
     display: block;
     position: relative;
     padding: 25px 20px;
+    background-color: #e6edf5;
 }
 
 footer img{
