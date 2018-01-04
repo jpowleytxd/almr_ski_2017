@@ -2,6 +2,7 @@
     <div class="navigation_inner faded_background">
         <nav>
             <a data-target="welcome.php" data-body="welcome" href="welcome.php" class="nav_item">Welcome From ALMR</a>
+            <a href="http://www.snow-forecast.com/resorts/La-Plagne" class="nav_item external">Weather</a>
             <a data-target="resort_information.php" data-body="resort_information" href="resort_information.php" class="nav_item">Resort Information</a>
             <a data-target="ski_map.php" data-body="ski_map" href="ski_map.php" class="nav_item">Ski Map &amp; Overview</a>
             <a data-target="hotel_details.php" data-body="hotel_details" href="hotel_details.php" class="nav_item">Hotel Details</a>

@@ -156,11 +156,14 @@ $(document).ready(function(){
 
     // Detect click on a navigation item
     $('.nav_item').on('click', function(event){
-        event.preventDefault();
-        event.stopPropagation();
+        // Check if using external link
+        if(!$(this).hasClass('external')){
+            event.preventDefault();
+            event.stopPropagation();
 
-        // Call function
-        openPage($(this));
+            // Call function
+            openPage($(this));
+        }
     });
 
     // --------------------------------------------------------

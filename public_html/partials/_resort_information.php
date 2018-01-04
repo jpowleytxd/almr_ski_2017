@@ -20,7 +20,7 @@
     <h2 class="main_title">Paradiski</h2>
     <p class="standard_text"><span style="font-weight: bold;">Pistes Total: </span>425km</p>
     <p class="standard_text tight_text">12 Green</p>
-    <p class="standard_text tight_text">?? Blue</p>
+    <p class="standard_text tight_text">135 Blue</p>
     <p class="standard_text tight_text">77 Red</p>
     <p class="standard_text">37 Black</p>
     <p class="standard_text tight_text"><span style="font-weight: bold;">Ski Domain Lifts: </span>128</p>
@@ -28,6 +28,7 @@
     <p class="standard_text tight_text">42 Drag Lifts</p>
     <p class="standard_text tight_text">59 Chair Lifts</p>
     <p class="standard_text tight_text">2 Cabriolet</p>
+    <p class="standard_text tight_text">14 Gondolas</p>
     <p class="standard_text tight_text">3+ Vanoise Express Cable Cars</p>
     <p class="standard_text">1 Funicular</p>
 </section>
