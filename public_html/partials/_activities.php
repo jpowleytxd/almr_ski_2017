@@ -18,7 +18,10 @@
     <p class="standard_text">Sledging in Paradise! One-mile sledge run with the most spectacular view on the highest mountain in Europe: Le Mont-Blanc. Sledge and helmet compulsory and provided by Société d'Aménagement de la Plagne.  Minimum size requirement: 1.40m Meeting point directly at the bottom of the ski lift Le Colorado on the snow front of Plagne centre. Purchase your sledge pass on the spot.</p>
     <a href="http://winter.champagny.com/equipment/1/255426-colorado-park.html" class="button"><span>Find Out More</span></a>
 
-    <p class="standard_text">If you would like to enjoy any of these activites, the Redbeetle team will be confirming details in resort. Of note activity costs will be covered by those who take part.</p>
+    <p class="standard_text">If you would like to enjoy any of these activites, the ALMR team will be confirming details in resort. Of note activity costs will be covered by those who take part.</p>
+
+    <p class="standard_text tight_text" style="font-weight: bold;">Rupert Culme-Seymour</p>
+    <p class="standard_text"><a href="tel:+447789651707">+447789 651 707</a></p>
 </section>
 
 <!-- Include Footer -->

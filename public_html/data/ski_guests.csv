@@ -1,0 +1,61 @@
+Retailer/Supplier,Name,Guest of,Company,Twin/Double/Single,Hotel,Rooms,Room Number,Number of Guests,Nights
+Partner,Rupert Culme-Seymour,N/A,ALMR,Single,Carlina,1,31,1,7
+Partner,Jill Whittaker,N/A,HIT Training,Twin,Carlina,1,201,1,7
+Retailer,Jaclyn Bateman,Jill Whittaker,Batemans,Sharing,Carlina,0,201,1,7
+Retailer,Brian Whiting,N/A,Whiting & Hammond,Twin,Carlina,1,203,1,7
+Retailer,Sam Cornwall-Jones,Brian Whiting,The Drawing Board,Sharing,Carlina,0,203,1,4
+Retailer,Chris Hammond,Brian Whiting,Whiting & Hammond,Sharing,Carlina,0,203,1,3
+Retailer,Paul Wigham,N/A,All Our Bars,Double,Carlina,1,32,1,7
+Retailer,Carol Wigham,Paul Wigham,All Our Bars,Sharing,Carlina,0,32,1,3
+Supplier,Richard Hartley,N/A,Catton Hospitality,Single,Carlina,1,20,1,7
+Retailer,Phil Thorley,N/A,Thorley Taverns,Double,Carlina,1,21,1,7
+Retailer,Lorraine Thorley,Phil Thorley,Thorley Taverns,Sharing,Carlina,0,21,1,7
+Retailer,James Nye,N/A,Anglian Country Inns,Twin,Carlina,1,49,1,7
+Retailer,Harry Kodagoda,James Nye,Anglian Country Inns,Sharing,Carlina,0,49,1,7
+Retailer,Laura Catte,N/A,Cascade PHM,Twin,Carlina,1,41,1,7
+Retailer,Roger Catte,Laura Catte,Cascade PHM,Sharing,Carlina,0,41,1,7
+Retailer,Philip Lay,N/A,PHL Ventures,Double,Carlina,1,29,1,7
+Retailer,Kirsty Lay,Philip Lay,PHL Ventures,Sharing,Carlina,0,29,1,7
+Retailer,Johnny McElhinney ,N/A,Windmill Taverns,Twin,Carlina,1,47,1,7
+Retailer,Simon Kaye,Johnny McElhinney ,N/A,Sharing,Carlina,0,47,1,4
+Supplier,Richard Keel,N/A,Keel Toys ,Single,Carlina,1,33,1,7
+Supplier,Neil Morgan,N/A,Christie & Co,Twin,Carlina,1,204,1,7
+Supplier,Stephen Owens,Neil Morgan,Christie & Co,Sharing,Carlina,0,204,1,4
+Supplier,Samantha Grey,Neil Morgan,Christie & Co,Sharing,Carlina,0,204,1,3
+Partner,Daniel Davies,N/A,CPL Training,Twin,Carlina,1,202,1,7
+Partner,Connor Hilton,Dan Davies,CPL Training,Sharing,Carlina,0,202,1,7
+Supplier,Niels Nielsen,N/A,GS Systems,Twin,Carlina,1,27,1,7
+Supplier,Mike Chung,Niels Nielsen,GS Systems,Sharing,Carlina,0,27,1,7
+Supplier,Helen Skeens,N/A,TLT Solicitors,Double,Carlina,1,302,1,7
+Supplier,Julian Skeens,Helen Skeens,N/A,Sharing,Carlina,0,302,1,7
+Supplier,Stuart Green,N/A,Legion,Twin,Carlina,1,34,1,7
+Supplier,Anthony Pender,Stuart Green,Yummy Pubs,Sharing,Carlina,0,34,1,7
+Supplier,Anthony Lyons,N/A,Kuits Solicitors,Single,Carlina,1,28,1,7
+Partner,Kate Nicholls,N/A,ALMR,Single,Carlina,1,402,1,4
+Partner,Tracy Pyatt,N/A,Sky,Single,Carlina,1,404,1,4
+Partner,Damian Saunders,N/A,Sky,Double,Carlina,1,205,1,4
+Partner,Michelle Saunders,Damian Saunders,Sky,Sharing,Carlina,0,205,1,4
+Partner,David Wills,N/A,Heineken,Twin,Carlina,1,206,1,4
+Partner,Ross Mair,David Wills,Heineken,Sharing,Carlina,0,206,1,3
+Partner,Tim Slattery,N/A,Molson Coors,Twin,Carlina,1,303,1,4
+Partner,David Griffiths ,Molson Coors,Molson Coors,Sharing,Carlina,0,303,1,4
+Partner,John Rumble,N/A,Merchant's Heart,Twin,Carlina,1,35,1,4
+Partner,Jason Sennit,John Rumble,Merchant's Heart,Sharing,Carlina,0,35,1,4
+Partner,Nigel Partington,N/A,Sky,Single,Carlina,1,26,1,4
+Retailer,Lucy Foster,N/A,Yummy Pubs,Single,Carlina,1,22,1,4
+Retailer,Jerome Grec,N/A,Beds and Bars,Twin,Carlina,1,304,1,4
+Retailer,Serge Ricciardelli,Jerome Grec,Beds and Bars,Sharing,Carlina,0,304,1,4
+Retailer,Keith Knowles,N/A,Beds and Bars,Single,Carlina,1,37,1,4
+Retailer,Luke Knowles,N/A,Beds and Bars,Single,Carlina,1,38,1,4
+Retailer,Tim Sykes,N/A,Beds and Bars,Single,Carlina,1,39,1,4
+Retailer,Pavlos Pavli,N/A,Punch Taverns,Single,Carlina,1,43,1,3
+Supplier,Tom Nichols,N/A,Everard Cole,Triple,Carlina,1,305,1,4
+Supplier,Rupert Lindsey-Clarke,Tom Nichols,City Pub Co,Sharing,Carlina,0,305,1,4
+Supplier,Kent Barker,Tom Nichols,,Sharing,Carlina,0,305,1,4
+Supplier,Tim Brooke-Webb,N/A,William Reed,Single,Carlina,1,48,1,4
+Supplier,Chris Lowe,N/A,William Reed,Single,Carlina,1,24,1,4
+Supplier,Steven Alton,N/A,Vianet,Twin,Carlina,1,306,1,4
+Retailer,Mick Howard,Steven Alton,Star Pubs,Sharing,Carlina,0,306,1,4
+Supplier,Stuart McLean,N/A,Zonal Retail Data Systems,Twin,Carlina,1,405,1,4
+Supplier,James McLean,Stuart McLean,Zonal Retail Data Systems,Sharing,Carlina,0,405,1,4
+Supplier,Clive Consterdine,N/A,Zonal Retail Data Systems,Single,Carlina,1,25,1,4
