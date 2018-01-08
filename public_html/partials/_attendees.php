@@ -54,16 +54,16 @@ array_push($rooms, $room);
         <table>
             <thead>
                 <tr>
-                    <th>Room</th>
                     <th>Name</th>
+                    <th>Company</th>
                 </tr>
             </thead>
             <tbody>
                 <?php
                     foreach($delegates['PEOPLE'] as $delegate){
                         echo '<tr class="data" data-room="' . $delegate["ROOM_NUMBER"] . '">';
-                        echo '<td class="room_number">' . $delegate["ROOM_NUMBER"] . '</td>';
                         echo '<td class="name">' . $delegate['NAME'] . '</td>';
+                        echo '<td class="company">' . $delegate["COMPANY"] . '</td>';
                         echo '</tr>';
                     }
                 ?>
