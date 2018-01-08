@@ -50,7 +50,7 @@ body{
     display: block;
     position: relative;
     padding-bottom: 20px;
-    padding-top: 150px;
+    padding-top: 120px;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -143,7 +143,7 @@ body{
 @media screen and (min-width: 375px) and (max-width: 413px){
     .container{
         padding-bottom: 30px;
-        padding-top: 200px;
+        padding-top: 160px;
         padding-left: 30px;
         padding-right: 30px;
     }
@@ -201,7 +201,7 @@ header{
 }
 
 #header_logo{
-    width: 100px;
+    width: 70px;
     display: block;
     position: relative;
     float: left;
@@ -307,7 +307,7 @@ header{
     }
 
     #header_logo{
-        width: 125px;
+        width: 100px;
     }
 
     #nav_icon{
@@ -329,7 +329,7 @@ header{
     }
 
     #header_logo{
-        width: 125px;
+        width: 120px;
     }
 
     #nav_icon{
@@ -366,7 +366,7 @@ header{
     height: 100vh;
     display: block;
     position: relative;
-    padding-top: 130px;
+    padding-top: 100px;
 }
 
 nav{
@@ -377,22 +377,22 @@ nav{
 
 .nav_item{
     width: 100%;
-    height: 35px;
+    height: 30px;
     display: block;
     position: relative;
     color: #465463;
     font-family: "Bebas Neue", Arial, sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
-    line-height: 35px;
+    line-height: 30px;
 }
 
 .navigation_footer{
     width: 100%;
-    display: block;
+    display: none;
     position: absolute;
     bottom: 0px;
     left: 0px;
@@ -401,7 +401,7 @@ nav{
 }
 
 .navigation_footer img{
-    height: 50px;
+    height: 40px;
     display: block;
     position: relative;
     margin-left: auto;
@@ -410,31 +410,42 @@ nav{
 
 /* iPhone 5 (320px) To iPhone 6/7/8/X (375px) */
 @media screen and (max-width: 374px){
-
+    .navigation_footer{
+        display: none;
+    }
 }
 
 /* iPhone 6/7/8/X (375px) To iPhone 6/7/8 Plus (414px) */
 @media screen and (min-width: 375px) and (max-width: 413px){
     .navigation_inner{
-        padding-top: 160px;
+        padding-top: 130px;
     }
 
     .nav_item{
         height: 40px;
+        font-size: 1.3rem;
         line-height: 40px;
+    }
+
+    .navigation_footer{
+        display: block;
     }
 }
 
 /* iPhone 6/7/8 Plus (414px) + */
 @media screen and (min-width: 414px){
     .navigation_inner{
-        padding-top: 180px;
+        padding-top: 150px;
     }
 
     .nav_item{
         height: 45px;
         font-size: 1.5rem;
         line-height: 45px;
+    }
+
+    .navigation_footer{
+        display: block;
     }
 }
 
