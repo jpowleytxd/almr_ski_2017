@@ -1,5 +1,5 @@
 <section class="container faded_background">
-    <h1 class="main_title">Our Sponsors</h1>
+    <h1 class="main_title">Thank You To<br />Our Sponsors</h1>
     <!-- Sponsors Section -->
     <div class="sponsors_outer">
         <div class="sponsor">
