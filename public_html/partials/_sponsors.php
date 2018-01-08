@@ -9,6 +9,7 @@
             <img src="media/img/logos/Molson Coors.png" alt="Molson Coors">
         </div>
         <div class="clearfix"></div>
+
         <div class="sponsor">
             <img src="media/img/logos/Heineken Logo V2.jpg" alt="Heineken UK">
         </div>
@@ -16,6 +17,7 @@
             <img src="media/img/logos/CPL Training.png" alt="CPL Training">
         </div>
         <div class="clearfix"></div>
+
         <div class="sponsor">
             <img src="media/img/logos/HIT Training Logo.png" alt="HIT Training">
         </div>
@@ -23,6 +25,7 @@
             <img src="media/img/logos/zonal-logo.png" alt="Zonal">
         </div>
         <div class="clearfix"></div>
+
         <div class="sponsor">
             <img src="media/img/logos/PURDEYS.jpg" alt="Purdeys">
         </div>
@@ -30,11 +33,33 @@
             <img class="blacken_logo" src="media/img/logos/MerchantsHeart_Logo.png" alt="Merchant Heart">
         </div>
         <div class="clearfix"></div>
+
         <div class="sponsor">
             <img src="media/img/logos/live_your_life.png" alt="Live Your Life">
         </div>
         <div class="sponsor">
             <img src="media/img/logos/monster.png" alt="Monster">
+        </div>
+        <div class="clearfix"></div>
+
+        <div class="sponsor">
+            <img src="media/img/logos/Jack Links Logo.jpg" alt="Jack Links">
+        </div>
+        <div class="sponsor">
+            <img src="media/img/logos/Red Bull Logo.png" alt="Red Bull">
+        </div>
+        <div class="clearfix"></div>
+
+        <div class="sponsor">
+            <img src="media/img/logos/Jagermeister Logo.png" alt="Jagermeister">
+        </div>
+        <div class="sponsor">
+            <img src="media/img/logos/Keel Toys Logo.jpg" alt="Keel Toys">
+        </div>
+        <div class="clearfix"></div>
+
+        <div class="sponsor" style="float: left;">
+            <img src="media/img/logos/Ribena Logo.png" alt="Ribena Sparkling">
         </div>
         <div class="clearfix"></div>
     </div>
