@@ -145,7 +145,7 @@ function searchInFocus(){
 function searchOutFocus(){
     // Grow header logo
     TweenMax.to($('#header_logo'), 0.5, {
-        width: '100px', 
+        width: '70px', 
         height: 'auto'
     });
 
