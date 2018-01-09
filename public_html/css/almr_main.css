@@ -308,10 +308,6 @@ header{
         padding-bottom: 0px;
     }
 
-    #header_logo{
-        width: 100px;
-    }
-
     #nav_icon{
         width: 28px;
         height: 23px;
@@ -329,10 +325,6 @@ header{
     header{
         padding: 35px;
         padding-bottom: 0px;
-    }
-
-    #header_logo{
-        width: 120px;
     }
 
     #nav_icon{
